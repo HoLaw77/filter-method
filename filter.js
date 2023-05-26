@@ -64,7 +64,7 @@ const hasStrongSkills = student => {
   return strongSkills.length > 0;
 };
 
-const strongName = strongSkills.map()
+
 
 const candidates = students.filter(hasStrongSkills)
 
