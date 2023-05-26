@@ -59,3 +59,13 @@ const students = [
     ]
   },
 ];
+const hasStrongSkills = student => {
+  let strongSkills = student.skills.filter(skill =>  skill.yrsExperience >= 5)
+  return strongSkills.length > 0;
+};
+
+const strongName = strongSkills.map()
+
+const candidates = students.filter(hasStrongSkills)
+
+console.log(candidates);
